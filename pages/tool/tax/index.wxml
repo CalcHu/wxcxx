@@ -1,0 +1,20 @@
+<!-- index.wxml -->
+<view class="container">
+    <view class="result-container">
+        <view class="after-tax-income deepskyblue-view">
+            <view class="ati-chinese">税后所得</view>
+            <view class="ati-number-unit">
+                <view class="ati-number">{{after_income}}</view>
+                <view class="ati-unit">元</view>
+            </view>
+        </view>
+        <view class="tax-info">
+            <view class="pit dodgerblue-view">个税:{{personal_income_tax}}元</view>
+            <view class="social_security dodgerblue-view">社保：{{social_security}}元</view>
+            <view class="housing_fund dodgerblue-view">公积金:{{housing_fund}}元</view>
+        </view>
+    </view>
+    <view class="before-tax-container">
+
+    </view>
+</view>

@@ -1,0 +1,42 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 18%;
+}
+
+.tax-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dodgerblue-view {
+    background-color: dodgerblue;
+}
+
+.deepskyblue-view {
+    background-color: deepskyblue
+}
+
+.after-tax-income {
+    display: flex;
+    flex-direction: column;
+}
+
+.ati-number-unit {
+    display: flex;
+    flex-direction: row;
+}

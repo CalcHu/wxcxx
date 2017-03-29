@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/location/location",
+    "pages/index/main",
+    "pages/tool/tax/index",
+    "pages/tool/loan/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ff00ff",
+    "navigationBarTitleText": "Tool",
+    "navigationBarTextStyle":"black",
+    "navigationBarBackgroundColor":"#000",
+    "navigationBarTextStyle":"white"
+  }
+}
