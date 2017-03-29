@@ -40,3 +40,24 @@
     display: flex;
     flex-direction: row;
 }
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.before-tax-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bti-chinese {
+    width: 70%;
+}
+
+.bti-input {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}

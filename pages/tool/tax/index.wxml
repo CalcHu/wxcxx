@@ -15,6 +15,18 @@
         </view>
     </view>
     <view class="before-tax-container">
-
+        <view class="city white-view space-between">
+            <view class="c-chinese">当前城市</view>
+            <view class="classname"></view>
+            <view class="classname"></view>
+            <view class="city_name">北京市</view>
+        </view>
+        <view class="before-tax-income space-between">
+            <view class="bti-chinese white-view">税前收入</view>
+            <view class="classname"></view>
+            <view class="classname"></view>
+            <view class="bti-input white-view"><input type="number" bindinput="inputIncomeHandler"/></view>
+        </view>
+        
     </view>
 </view>
